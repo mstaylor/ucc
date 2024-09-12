@@ -8,14 +8,8 @@ if !DOCS_ONLY
 SUBDIRS =      \
 	src        \
 	contrib    \
-	tools/info \
 	cmake
 
-if HAVE_MPICXX
-SUBDIRS +=     \
-	tools/perf \
-	test/mpi
-endif
 
 if HAVE_GTEST
 SUBDIRS += test/gtest

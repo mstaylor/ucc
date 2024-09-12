@@ -247,8 +247,6 @@ AC_CONFIG_FILES([
                  src/components/ec/rocm/kernel/Makefile
                  test/mpi/Makefile
                  test/gtest/Makefile
-                 tools/info/Makefile
-                 tools/perf/Makefile
                  cmake/Makefile
                  cmake/ucc-config-version.cmake
                  cmake/ucc-config.cmake
